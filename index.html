@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+<body>
+    <nav>
+        <div class="navLeft">
+            <div class="logo">
+                <span>P</span>
+            </div>
+         </div>
+        <div class="navRight" id="navLinks">
+             <a href="#" onclick="scrollToSection('home')" id="homeLink" >HOME</a>
+            <a href="#" onclick="scrollToSection('services')" id="servicesLink">SERVICES</a>
+            <a href="#" onclick="scrollToSection('about')" id="aboutLink">ABOUT ME</a>
+            <a href="#" onclick="scrollToSection('skills')" id="skillsLink">SKILLS</a>
+            <a href="#" onclick="scrollToSection('portfolio')" id="portfolioLink">PORTFOLIO</a>
+            <a href="#" onclick="scrollToSection('contact')" id="contactLink">CONTACT</a>    
+        </div>
+        <div class="bar">
+            <i class="fa-solid fa-bars" id="toggleMenu"></i>
+        </div>
+        <div class="dropdown-content" id="dropdownContent">
+            <a href="#" onclick="scrollToSection('home')">HOME</a>
+            <a href="#" onclick="scrollToSection('services')">SERVICES</a>
+            <a href="#" onclick="scrollToSection('about')">ABOUT ME</a>
+            <a href="#" onclick="scrollToSection('skills')">SKILLS</a>
+            <a href="#" onclick="scrollToSection('portfolio')">PORTFOLIO</a>
+            <a href="#" onclick="scrollToSection('contact')">CONTACT</a>
+        </div>
+    </nav>
+    <div class="home" id="home">
+    <div class="hoLeft">
+        <div class="name">
+            <span>HELLO,</span>
+            <p>I AM PENIEL ANBESSIE</p>
+        </div>
+        <div class="career">
+            <h1> I AM SOFTWARE ENGINEER</h1>
+            <h1>FRONTEND DEVELOPER</h1>
+            <h1>REACT DEVELOPER</h1>
+            <h1>UI DESIGNER</h1>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-stack-overflow"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-discord"></i>
+        </div>
+    </div>
+    <div class="hoRight">
+        <div class="img">
+            <img src="https://i.pinimg.com/564x/40/af/b9/40afb9d3850a1a072ab2949f18fa0195.jpg" alt="">
+        </div>
+
+    </div>
+    </div>
+        
+       <div class="services" id="services">
+        <div class="setitle">
+            <span>My Services</span>
+        </div>
+        <div class="seContainer">
+            <div class="service">
+               <div class="seIcon">
+                   <i class="fa-solid fa-wand-magic-sparkles"></i>
+                   <i class="fa-solid fa-marker"></i>
+               </div>
+               <div class="text">
+                <ul>
+                    <li>creating user-friendly interfaces</li>
+                    <li>visually appealing designs</li>
+                    <li>Responsive web design </li>
+                </ul>
+                </div>
+               
+            </div>
+            <div class="service">
+               <div class="seIcon">
+                   <i class="fa-solid fa-code"></i>
+                   <i class="fa-solid fa-laptop-code"></i>
+                 </div>
+               <div class="text">
+                <ul>
+                    <li>Website Development</li>
+                    <li> Cross-browser compatibility testing </li>
+                    <li>Performance optimization </li>
+                </ul>
+                </div>
+            </div>
+            <div class="service">
+               <div class="seIcon">
+                <i class="fa-solid fa-laptop"></i>
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <i class="fa-solid fa-mobile"></i>
+                </div>
+               <div class="text">
+                <ul>
+                    <li> Develop fully responsive websites</li>
+                    <li> Ensuring a consistent user experience <br/>across desktops,laptops, tablets, and smartphones.</li>
+                </ul>
+                </div>
+            </div>
+   </div>
+   </div>
+       
+    
+    <div class="about" id="about">
+        <div class="abtitle">
+            <span>About Me</span>
+        </div>
+        
+        <div class="aboutContainer">
+            <div class="imgC">
+                <img src="https://i.pinimg.com/236x/07/84/2c/07842ca3eb638767e39c1ebe6b19f868.jpg" alt="">
+            </div>
+            <div class="aboutLeft">
+                <div class="hi">
+                    <span>Hi There </span>
+                </div>
+                <div class="desc">
+                    <p>I am a passionate and dedicated modern front-end developer with a strong foundation in React Js.<br/> My goal is to provide clean, organized, and professional projects to contribute to the success of an organization.<br/> I am eager to apply my skills and continue learning in a dynamic and collaborative environment.</p>
+                </div>
+                <div class="abButton">
+                    <div class="fButton">
+                     <span>CONTACT ME</span>
+                     <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="sButton">
+                        <a id="downloadLink" href="img.pdf" download="Penie Anbessie Resume.pdf">
+                            <i class="fa-solid fa-download"></i>
+                            <span>DOWNLOAD CV </span>
+                        </a>
+                    </div>                 
+                </div>
+             </div>   
+        </div>
+        <div class="hire">
+            <span>Lets Work Together in Your Next Project!</span>
+            <div class="hiNow">
+                <p>Hire Me Now!</p>
+            </div>
+        </div>
+        
+
+        </div>
+        <div class="skills" id="skills">
+            <div class="skillTop">
+        <span>Skills</span>
+            </div>
+            <div class="skillBottom">
+                <div class="skLeft">
+                   <div class="sktitle">
+                    <span>All the skills that I have in that field of work are mentioned.</span>
+                    <p>I have extensive experience in web development, with a strong focus on front-end technologies including HTML, CSS, JavaScript, and React.js.<br> Additionally, I am proficient in back-end development with Node.js.<br> My expertise encompasses creating responsive and scalable websites that provide seamless user experiences across various devices and platforms.</p>
+                   </div>
+                </div>
+                <div class="skRight">
+                    <div class="skContainer">
+                    <span>HTML</span>
+                         <div class="progress-bar" style="width: 100%; background-color: #ddd;">
+                         <div class="progress" style="width: 95%; background-color:teal; height: 6px;"></div>                
+                    </div>
+                    <span>95%</span>
+                    </div>
+                    <div class="skContainer">
+                        <span>CSS</span>
+                             <div class="progress-bar" style="width: 100%; background-color: #ddd;">
+                             <div class="progress" style="width: 98%; background-color:teal; height: 6px;"></div>                
+                        </div>
+                        <span>98%</span>
+                        </div>
+                        <div class="skContainer">
+                            <span>JAVASCRIPT</span>
+                                 <div class="progress-bar" style="width: 100%; background-color: #ddd;">
+                                 <div class="progress" style="width: 70%; background-color:teal; height: 6px;"></div>                
+                            </div>
+                            <span>70%</span>
+                            </div>
+                            <div class="skContainer">
+                                <span>REACT.JS</span>
+                                     <div class="progress-bar" style="width: 100%; background-color: #ddd;">
+                                     <div class="progress" style="width: 90%; background-color:teal; height: 6px;"></div>                
+                                </div>
+                                <span>90%</span>
+                                </div>
+                                <div class="skContainer">
+                                    <span>MERN</span>
+                                         <div class="progress-bar" style="width: 100%; background-color: #ddd;">
+                                         <div class="progress" style="width: 50%; background-color:teal; height: 6px;"></div>                
+                                    </div>
+                                    <span>50%</span>
+                                    </div>
+                                    <div class="skContainer">
+                                        <span>NODE.JS</span>
+                                             <div class="progress-bar" style="width: 100%; background-color: #ddd;">
+                                             <div class="progress" style="width: 55%; background-color:teal; height: 6px;"></div>                
+                                        </div>
+                                        <span>55%</span>
+                                        </div>
+                                     </div>
+                                     
+                                         </div>
+                                         
+                                            </div>
+
+      
+            </div>
+  
+
+                      </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <div class="portContainer">
+                <div class="poTitle">
+                    <span>Portfolio</span>
+                </div>
+                <div class="card">
+                    <div class="cImg">
+                        <img src="./img/1.png" alt="">
+                        <div class="desc">
+                            <span>Ecommerce Website</span>
+                            <p>FreeZone Electronics</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cImg">
+                        <img src="./img/2.png" alt="">
+                        <div class="desc">
+                            <span>Ecommerce Website</span>
+                            <p>Real State</p>
+                        </div>
+                    </div>
+                    <div class="cImg">
+                        <img src="./img/3.png" alt="">
+                        <div class="desc">
+                            <span>Admin Dashboard</span>
+                         </div>
+                    </div>
+                    <div class="cImg">
+                        <img src="./img/link.png" alt="">
+                        <div class="desc">
+                            <span>LinkedIn Clone</span>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="coWrapper">
+                <div class="coTitle">
+                    <span>Get In Touch</span>
+                </div>
+                <div class="coBottom">
+                    <div class="coIcons">
+                        <div class="coicon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="coText">
+                            <span>Location</span>
+                            <p>Addis Ababa, Ethiopia</p>
+                        </div>
+                     </div>
+                    <div class="coIcons">
+                        <div class="coicon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div class="coText">
+                          <span>Phone</span>
+                          <p>+251906380262</p>
+                        </div>
+                     </div>
+                    <div class="coIcons">
+                        <div class="coicon">
+                            <i class="fa-regular fa-envelope"></i>
+                         </div>
+                         <div class="coText">
+                         <span>Email</span>
+                         <p>penielanbessie@gmail.com</p>
+                         </div>
+                     </div>
+                    <div class="coIcons">
+                        <div class="coicon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                         </div>
+                         <div class="coText">
+                           <span>Linkedin</span>
+                           <p>www.linkedin.com/in/peniel-anbessie
+
+                           </p>
+                         </div>
+                     </div>  
+                 </div>
+                 <div class="coForm">
+                    <div class="foTitle">
+                        Just Say Hello
+                    </div>
+                  <form action="" onsubmit="return validateForm(event)">
+                     <input type="text" id="name" placeholder="Name*">
+                     <p id="nameError" style="color: red; display: none;">Please fill out this field</p>
+                     <input type="email" id="email" placeholder="Email">
+                     <p id="emailError" style="color: red; display: none;">Please fill out this field</p>
+                     <input class="sub" id="subject" type="text" placeholder="Your Subject">
+                     <p id="subjectError" style="color: red; display: none;">Please fill out this field</p>
+                     <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message Here"></textarea>
+                     <p id="messageError" style="color: red; display: none;">Please fill out this field</p>
+                     <button onclick="validateForm()">Send A Message</button>
+                  </form>
+                 </div>
+             </div>
+        </div>
+         <div class="footer">
+            <i class="fa-regular fa-copyright"></i>
+            <span>Peniel.2024</span>
+            <span>.All Right Reserved</span>
+         </div>
+       
+     <script src="./app.js"></script>
+ </body>
+</html>
